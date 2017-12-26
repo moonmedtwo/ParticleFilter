@@ -18,4 +18,4 @@ dx = lmx - curX;
 dy = lmy - curY;
 
 d = sqrt((curX-lmx)^2+(curY-lmy)^2);
-b = atan(dy/dx) - curPhi;
+b = atan2(dy,dx) - curPhi;
